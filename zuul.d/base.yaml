@@ -74,7 +74,10 @@
       neutron_external_network_prefix_length: "64"
       neutron_tenant_network_prefix: "fd:f0::"
       neutron_tenant_network_prefix_length: "64"
+      neutron_kolla_project_network_prefix: "fd:f1::"
+      neutron_kolla_project_network_prefix_length: "64"
       neutron_tenant_network_dns_server: 2001:4860:4860::8888
+      neutron_kolla_project_network_dns_server: 2001:4860:4860::8888
       address_family: 'ipv6'
 
 - job:
